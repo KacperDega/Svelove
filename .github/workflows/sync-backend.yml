@@ -1,11 +1,11 @@
 name: Sync Backend Submodule
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "0 16 * * *" # Runs every day at 16:00 UTC (18:00 CET)
+  repository_dispatch:
+    types: [backend-submodule-updated]
+  workflow_dispatch:
 
 env:
   SUBMODULE_NAME: "Backend"
@@ -14,7 +14,7 @@ jobs:
   sync-backend:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository with submodules
+      - name: Checkout repo with submodules
         uses: actions/checkout@v3
         with:
           submodules: recursive
@@ -22,16 +22,46 @@ jobs:
           ref: 'main'
           fetch-depth: 0
 
-
-      - name: Update Backend submodule to latest commit
+      - name: Update Backend submodule
         run: git submodule update --remote --merge ${{ env.SUBMODULE_NAME }}
 
-      - name: Commit and push Backend submodule update
+      - name: Check if submodule updated
+        id: check_diff
+        run: |
+          if git diff --quiet HEAD; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Get latest submodule commit info
+        if: steps.check_diff.outputs.changed == 'true'
+        id: submodule_info
+        run: |
+          cd ${{ env.SUBMODULE_NAME }}
+          echo "message=$(git log -1 --pretty=format:%s)" >> $GITHUB_OUTPUT
+          echo "author=$(git log -1 --pretty=format:%an)" >> $GITHUB_OUTPUT
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+          cd -
+
+      - name: Append to Backend-changes.log
+        if: steps.check_diff.outputs.changed == 'true'
+        run: |
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+          echo "Update at $TIMESTAMP" >> Backend-changes.log
+          echo "Submodule: ${{ env.SUBMODULE_NAME }}" >> Backend-changes.log
+          echo "Author: ${{ steps.submodule_info.outputs.author }}" >> Backend-changes.log
+          echo "SHA: ${{ steps.submodule_info.outputs.sha }}" >> Backend-changes.log
+          echo "Commit message: ${{ steps.submodule_info.outputs.message }}" >> Backend-changes.log
+          echo "------------------------------------------------------------" >> Backend-changes.log
+
+      - name: Commit and push changes
+        if: steps.check_diff.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add ${{ env.SUBMODULE_NAME }}
-          git commit -m "Update Backend submodule to latest commit" || echo "No changes to commit"
+          git add ${{ env.SUBMODULE_NAME }} Backend-changes.log
+          git commit -m "Update Backend submodule to commit ${{ steps.submodule_info.outputs.sha }}"
           git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
