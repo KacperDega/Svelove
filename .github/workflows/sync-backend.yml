@@ -19,6 +19,9 @@ jobs:
         with:
           submodules: recursive
           token: ${{ secrets.PAT_TOKEN }}
+          ref: 'main'
+          fetch-depth: 0
+
 
       - name: Update Backend submodule to latest commit
         run: git submodule update --remote --merge ${{ env.SUBMODULE_NAME }}
