@@ -63,5 +63,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add ${{ env.SUBMODULE_NAME }} Backend-changes.log
-          git commit -m "Update Backend submodule to commit ${{ steps.submodule_info.outputs.sha }}"
+          git commit -m "Backend: ${{ steps.submodule_info.outputs.message }} (by ${{ steps.submodule_info.outputs.author }})"
           git push origin main
