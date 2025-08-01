@@ -1,4 +1,118 @@
-Update at 2025-08-01 13:44:51 UTC
+Update at 2025-05-24 11:46:44 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 8eba32f28aec32249b2d59e475b07bfdb524b905
+Commit message: Initialize project using Create React App
+------------------------------------------------------------
+Update at 2025-05-25 18:02:28 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: ec4adb10ddd648b4889ac51c6ce8d1ccaea243b7
+Commit message: Initialize project using Create React App
+------------------------------------------------------------
+Update at 2025-05-27 15:02:21 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 49b18d027229497983157416c910d32e246f717f
+Commit message: chore: configuration and add DaisyUI
+------------------------------------------------------------
+Update at 2025-05-29 10:01:03 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 6f63bb4f57c3f1f80bd1e4b02f0c42931399e7be
+Commit message: chore: packages update and config
+------------------------------------------------------------
+Update at 2025-05-29 10:01:20 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 8481074fcaae031d7d952b8cf97f0b3bb7f25937
+Commit message: feat: login page
+------------------------------------------------------------
+Update at 2025-05-31 22:17:03 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 2da6c1da47febac88e1b4dcbbad7afa010922df2
+Commit message: feat: register page
+------------------------------------------------------------
+Update at 2025-06-02 16:07:46 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: e747b36c72d65338aed1bb1561f40475f17907be
+Commit message: feat: initial static dashboard layout
+------------------------------------------------------------
+Update at 2025-06-11 22:55:26 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: bea695d04298c80e1cdfc3ecb93649f93cb1b321
+Commit message: feat: dynamic title added to routing
+------------------------------------------------------------
+Update at 2025-06-11 22:58:34 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 87983dc5ba76171afd4f3c5a90e3b10f6db742ba
+Commit message: feat: expanded register and added pages
+------------------------------------------------------------
+Update at 2025-06-12 16:03:18 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 5b770ed9dc46f3e43bf7c1b278473e333ef4c0f7
+Commit message: feat: hobby multiselect
+------------------------------------------------------------
+Update at 2025-06-15 12:03:29 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 2b2defca822320179c8cfb2cd556dd9221054a2f
+Commit message: style: card-styled login/register background
+------------------------------------------------------------
+Update at 2025-06-17 23:12:02 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: de3887b2f41d75baaf5de28b06fead975b667cc3
+Commit message: feat: profile page
+------------------------------------------------------------
+Update at 2025-06-22 12:11:21 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 7444777594943198e33f7f3496c9b0ef616d686a
+Commit message: refactor: move enums to /types/enums directory
+------------------------------------------------------------
+Update at 2025-06-23 22:23:59 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 883948c8009c3dc8c42c46d98f7a0f0fc165895e
+Commit message: feat: profile edit page
+------------------------------------------------------------
+Update at 2025-06-27 09:32:20 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 75cd4da03f7ae2d10bcc5bb67df14a076ac28a49
+Commit message: feat: top navbar
+------------------------------------------------------------
+Update at 2025-06-27 09:32:43 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: c250fdeb7ae53f203433c8d8081d69b918e28cf8
+Commit message: fix: show scrollbar to prevent layout shift
+------------------------------------------------------------
+Update at 2025-07-10 19:25:11 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 1e2178aca2240030f843a74dcff3666b6b8076c5
+Commit message: feat: matching screed (mock)
+------------------------------------------------------------
+Update at 2025-07-13 15:20:46 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 8d93e42df6613fabda842f86aa965110762e1f65
+Commit message: feat: matches fetching from API
+------------------------------------------------------------
+Update at 2025-07-24 13:23:45 +0200
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 5efc9f77525472b3260711634b1acb7dacf7ccf9
+Commit message: Create main-repo-sync.yml
+------------------------------------------------------------
+Update at 2025-08-01 15:32:14 +0200
 Submodule: Frontend
 Author: Kacper Dęga
 SHA: 0f093caed56ee742adb2d33f2a41237a9bad9d45

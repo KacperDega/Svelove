@@ -1,4 +1,40 @@
-Update at 2025-08-01 13:22:40 UTC
+Update at 2025-07-24 12:44:47 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 6bccc24dfb1295148cf3a5f2f7e2923c21f500c7
+Commit message: Update main-repo-sync.yml
+------------------------------------------------------------
+Update at 2025-07-24 18:58:09 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: de4ab91ce95a65f5b0f09c64c8c2c5c83a13e4bb
+Commit message: chore: reconfigure app; disable google cloud
+------------------------------------------------------------
+Update at 2025-07-24 19:30:47 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 8b0ea37ba718469a54e815a60e9998c77ae8dd44
+Commit message: test: adapt tests to recent project changes
+------------------------------------------------------------
+Update at 2025-07-27 17:21:13 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 4df82f13e09b1c0ec0b1feded9bfe780e26a376b
+Commit message: chore: configure WebClient for Supabase Storage
+------------------------------------------------------------
+Update at 2025-07-27 18:27:28 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 7d24dbd5ddbf3d552f184d09d36157a87f4297c2
+Commit message: fix: renamed Hobby enum to HobbyEnum for clarity
+------------------------------------------------------------
+Update at 2025-08-01 15:17:35 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 1c9a0f2acc346400289974d6bfce2e806ac6f1c1
+Commit message: cleanup: drop docker/cloud-build files
+------------------------------------------------------------
+Update at 2025-08-01 15:22:19 +0200
 Submodule: Backend
 Author: Kacper Dęga
 SHA: 2f40e3bc4f8483e3b1973106eccd8917ef536e33
