@@ -40,3 +40,9 @@ Author: Kacper Dęga
 SHA: 2f40e3bc4f8483e3b1973106eccd8917ef536e33
 Commit message: Update main-repo-sync.yml
 ------------------------------------------------------------
+Update at 2025-08-10 13:41:49 UTC
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 3afd6fb704b378c928eca0da71c23c9c7efda279
+Commit message: ci: run tests on all branches, notify only on main
+------------------------------------------------------------
