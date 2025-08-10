@@ -2,7 +2,7 @@ name: Sync Backend Submodule
 
 on:
   schedule:
-    - cron: "0 16 * * *" # Runs every day at 16:00 UTC (18:00 CET)
+    - cron: "0 16 * * *"
   repository_dispatch:
     types: [backend-submodule-updated]
   workflow_dispatch:
@@ -22,18 +22,29 @@ jobs:
           ref: 'main'
           fetch-depth: 0
 
+      - name: Get current submodule SHA
+        id: pre_update_sha
+        run: echo "sha=$(git submodule status -- ${{ env.SUBMODULE_NAME }} | awk '{print $1}')" >> $GITHUB_OUTPUT
+
       - name: Update Backend submodule
         run: git submodule update --remote --merge ${{ env.SUBMODULE_NAME }}
+
+      - name: Get new submodule SHA
+        id: post_update_sha
+        run: |
+          cd ${{ env.SUBMODULE_NAME }}
+          echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+          cd -
 
       - name: Check if submodule updated
         id: check_diff
         run: |
-          if git diff --quiet HEAD; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
+          if [ "${{ steps.pre_update_sha.outputs.sha }}" != "${{ steps.post_update_sha.outputs.sha }}" ]; then
             echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
           fi
-
+          
       - name: Get latest submodule commit info
         if: steps.check_diff.outputs.changed == 'true'
         id: submodule_info
@@ -44,16 +55,16 @@ jobs:
           echo "sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
           cd -
 
-      - name: Append to Backend-changes.log
+      - name: Append to Backend-changes.log with full history
         if: steps.check_diff.outputs.changed == 'true'
         run: |
-          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          echo "Update at $TIMESTAMP" >> Backend-changes.log
-          echo "Submodule: ${{ env.SUBMODULE_NAME }}" >> Backend-changes.log
-          echo "Author: ${{ steps.submodule_info.outputs.author }}" >> Backend-changes.log
-          echo "SHA: ${{ steps.submodule_info.outputs.sha }}" >> Backend-changes.log
-          echo "Commit message: ${{ steps.submodule_info.outputs.message }}" >> Backend-changes.log
-          echo "------------------------------------------------------------" >> Backend-changes.log
+          LOG_FILE="Backend-changes.log"
+          
+          cd ${{ env.SUBMODULE_NAME }}
+          
+          git log --pretty=format:"------------------------------------------------------------%nCommit message: %s%nSHA: %H%nAuthor: %an%nSubmodule: ${{ env.SUBMODULE_NAME }}%nUpdate at %ad" --date=format:"%Y-%m-%d %H:%M:%S %z" ${{ steps.pre_update_sha.outputs.sha }}..${{ steps.post_update_sha.outputs.sha }} | tac >> ../$LOG_FILE
+          
+          cd -
 
       - name: Commit and push changes
         if: steps.check_diff.outputs.changed == 'true'
