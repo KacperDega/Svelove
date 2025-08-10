@@ -46,3 +46,74 @@ Author: Kacper Dęga
 SHA: 3afd6fb704b378c928eca0da71c23c9c7efda279
 Commit message: ci: run tests on all branches, notify only on main
 ------------------------------------------------------------
+Update at 2025-07-29 20:10:48 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: f3b7451c3cfdf829516f9a46d606f14daf7dce72
+Commit message: refactor: renamed PasswordEncoderService to EncoderService
+------------------------------------------------------------
+Update at 2025-07-29 20:13:47 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 69d3292ab470d7fe237ea6c9ed800e91155c68c3
+Commit message: feat: add SupabaseStorageService with image upload functionality
+------------------------------------------------------------
+Update at 2025-07-31 15:19:34 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: f49f04b7f4254b4e2209255452fcff7bc9e455fa
+Commit message: feat: implement deleting images from Supabase
+------------------------------------------------------------
+Update at 2025-08-03 19:11:04 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 10ac4e96dd4f2f96e62db2d98655d9a95ec699fa
+Commit message: feat: convert uploaded images to WebP and strip metadata
+------------------------------------------------------------
+Update at 2025-08-03 20:40:53 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 098e8a415cb3d8a69b2b7f978f0dc17c6fee9aaa
+Commit message: feat: add photo urls to user and update register to support image upload
+------------------------------------------------------------
+Update at 2025-08-05 20:01:37 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 6ef31db972f3189900df74417cb578185a6b1259
+Commit message: style/refactor: misc code tidy-up
+------------------------------------------------------------
+Update at 2025-08-06 18:29:53 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 57a3a97d88155fff4e4828a523d8191eb4c4d787
+Commit message: fix: let user edit age
+------------------------------------------------------------
+Update at 2025-08-06 18:32:00 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 75c9a4a3fb8073c1068dc137e968b2b87fe2b646
+Commit message: feat: user photos management functionality with upload delete reorder
+------------------------------------------------------------
+Update at 2025-08-10 15:34:44 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: ceb2531f12e7f3a1be038fa1e29f0cd8ed646bf5
+Commit message: refactor: add photo URLs to potential matches DTO, rename photos controller for clarity
+------------------------------------------------------------
+Update at 2025-08-10 15:36:25 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: ac8f7f8356210e1ef1117883fe5425cd8df982a2
+Commit message: test: add tests for SupabaseStorage and Photo services
+------------------------------------------------------------
+Update at 2025-08-10 15:36:44 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 396c7890292c6fca3dd14fda495fe6838e71f8b9
+Commit message: chore: clean up old Google Cloud files
+------------------------------------------------------------
+Update at 2025-08-10 15:44:43 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: f06a481ce2d8e37b9a81d3512c7feaa57cc12d82
+Commit message: Merge pull request #6 from KacperDega/feature/user-image-management
+------------------------------------------------------------
