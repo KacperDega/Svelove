@@ -117,3 +117,8 @@ Author: Kacper Dęga
 SHA: f06a481ce2d8e37b9a81d3512c7feaa57cc12d82
 Commit message: Merge pull request #6 from KacperDega/feature/user-image-management
 ------------------------------------------------------------
+Update at 2025-08-11 18:16:21 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 5c8edac07519a870c3cca3bc270479a597dca3e6
+Commit message: fix: correct misuse of Authentication.getName() as username
+------------------------------------------------------------
