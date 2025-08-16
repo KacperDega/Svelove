@@ -151,3 +151,38 @@ Author: Kacper Dęga
 SHA: df8dc823957a98922ced64daf38ef916028ebe90
 Commit message: Merge pull request #9 from KacperDega/feature/localization-standardization
 ------------------------------------------------------------
+Update at 2025-08-16 15:45:00 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: a03e073c0f57fb1125197200951833c2136bcdab
+Commit message: feat: remove HobbyEnum and update Hobby entity
+------------------------------------------------------------
+Update at 2025-08-16 15:45:22 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: ba6b11d6832630f4d8c8f5d45b59f023e21304d6
+Commit message: feat: load hobby values from CSV with HobbyDataLoader
+------------------------------------------------------------
+Update at 2025-08-16 15:45:45 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: d83bda7ed1c7360f01026f3bcb320397feeca313
+Commit message: refactor: adapt code to new Hobby entity
+------------------------------------------------------------
+Update at 2025-08-16 15:45:57 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 285f6eb5c2603b04924aa358669f4f39cd6fa828
+Commit message: test: update tests to match new Hobby implementation
+------------------------------------------------------------
+Update at 2025-08-16 15:47:39 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 461b9d31f64860101d7acdd395c3b357ba957dbe
+Commit message: feat: add controller for retrieving all hobbies
+------------------------------------------------------------
+Update at 2025-08-16 15:54:12 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 59df90c787d63d176529c0507e1b858e7cafa743
+Commit message: Merge pull request #11 from KacperDega/feature/rework-hobby-logic
+------------------------------------------------------------
