@@ -122,3 +122,32 @@ Author: Kacper Dęga
 SHA: 5c8edac07519a870c3cca3bc270479a597dca3e6
 Commit message: fix: correct misuse of Authentication.getName() as username
 ------------------------------------------------------------
+Update at 2025-08-14 23:56:53 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 278e72383dbfcb93d596e8acc65dca19ad0ed09d
+Commit message: feat: replace String Localization with City entity
+------------------------------------------------------------
+Update at 2025-08-14 23:57:06 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: cf2874c27d9e649022b27afe1f76a51bfa98efdc
+Commit message: feat: add CityDataLoader and polish_cities.csv
+------------------------------------------------------------
+Update at 2025-08-14 23:57:15 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 908f1476f5fecb5b661321ec1825aae628d228bc
+Commit message: test: update tests to use City entity instead of Localization String
+------------------------------------------------------------
+Update at 2025-08-15 14:59:50 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: bb836943b9726935541ed31c5eff37a05d0482a3
+Commit message: feat: add controller and DTO for retrieving all cities
+------------------------------------------------------------
+Update at 2025-08-16 12:33:40 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: df8dc823957a98922ced64daf38ef916028ebe90
+Commit message: Merge pull request #9 from KacperDega/feature/localization-standardization
+------------------------------------------------------------
