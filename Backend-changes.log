@@ -186,3 +186,32 @@ Author: Kacper Dęga
 SHA: 59df90c787d63d176529c0507e1b858e7cafa743
 Commit message: Merge pull request #11 from KacperDega/feature/rework-hobby-logic
 ------------------------------------------------------------
+Update at 2025-08-19 17:23:51 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 5b523f13acd9ed2117faafa9bef2f2ae30a07432
+Commit message: feat: add monthly user stats and integrate with User model
+------------------------------------------------------------
+Update at 2025-08-20 16:54:29 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 74b3ff9b7393c6f18783329908454b7eed5b3df6
+Commit message: feat: add UserStats service and integrate it with app logic
+------------------------------------------------------------
+Update at 2025-08-21 16:58:29 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 23afbe88e2b2154144f312f7860883218dbbb98f
+Commit message: feat: add stats controller with DTOs and service methods for data retrieval
+------------------------------------------------------------
+Update at 2025-08-22 18:04:58 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 4b1887bba554e28d9afcfc6247e29025f08009db
+Commit message: test: add tests for UserStatsService and fix tests after user stats integration
+------------------------------------------------------------
+Update at 2025-08-22 18:07:04 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 1dc0d0a894ac3f03cc1a1839ce11aaa210f4d231
+Commit message: Merge pull request #13 from KacperDega/feature/user-stats
+------------------------------------------------------------
