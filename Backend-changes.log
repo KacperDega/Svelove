@@ -215,3 +215,38 @@ Author: Kacper Dęga
 SHA: 1dc0d0a894ac3f03cc1a1839ce11aaa210f4d231
 Commit message: Merge pull request #13 from KacperDega/feature/user-stats
 ------------------------------------------------------------
+Update at 2025-08-23 20:31:02 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: d617579cd46ab2f66cc6119db021da8463a662d7
+Commit message: feat: add Notification class, repository and service
+------------------------------------------------------------
+Update at 2025-08-24 13:40:42 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 170bfecbdf0db99a84834b1aa11bd7164b41b700
+Commit message: feat: add notification triggers in services
+------------------------------------------------------------
+Update at 2025-08-24 15:11:51 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 206b32b89423175b72d842eb0375b25b7bd9fc74
+Commit message: fix: change NotificationRepository query ordering from createdAt to ID for consistent results
+------------------------------------------------------------
+Update at 2025-08-24 15:14:34 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 662ee56b5b6a61d8b88c0611778448455fa8cdff
+Commit message: test: add NotificationService tests; update other tests to mock NotificationService
+------------------------------------------------------------
+Update at 2025-08-24 17:56:23 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 963806f3b8dc695b4b5145253529fe39c2ca4952
+Commit message: feat: add controller and DTO for handling Notifications
+------------------------------------------------------------
+Update at 2025-08-24 17:58:48 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 270c29f206cc234eb7cb513682c940a20eee8baa
+Commit message: Merge pull request #15 from KacperDega/feature/notifications
+------------------------------------------------------------
