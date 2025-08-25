@@ -250,3 +250,14 @@ Author: Kacper Dęga
 SHA: 270c29f206cc234eb7cb513682c940a20eee8baa
 Commit message: Merge pull request #15 from KacperDega/feature/notifications
 ------------------------------------------------------------
+Update at 2025-08-25 18:01:56 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 62d8d54696ccbd1be3d48d0703d4d21a8329bcba
+Commit message: fix: correct field value assignment in @Builder in Notification class
+------------------------------------------------------------
+Update at 2025-08-25 18:02:32 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: bd60dda4be00e9ddee4561c8c711dc17cacf68d9
+Commit message: feat: add Swagger/OpenAPI support for API documentation
+------------------------------------------------------------
