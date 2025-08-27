@@ -261,3 +261,8 @@ Author: Kacper Dęga
 SHA: bd60dda4be00e9ddee4561c8c711dc17cacf68d9
 Commit message: feat: add Swagger/OpenAPI support for API documentation
 ------------------------------------------------------------
+Update at 2025-08-27 23:20:51 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 62a415c8b940d468ad0bbff72647c9f1c68f1418
+Commit message: feat: endpoints for hobbies and cities send sorted data
+------------------------------------------------------------
