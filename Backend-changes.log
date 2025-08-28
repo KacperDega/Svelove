@@ -271,3 +271,14 @@ Author: Kacper Dęga
 SHA: c15a3c2bdd6511675be05d95997a7f0205418726
 Commit message: feat: use Hobby id instead of name to register user
 ------------------------------------------------------------
+Update at 2025-08-28 15:20:12 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 483ff1c5cdfce27cfe009310697425e91b6f9e7b
+Commit message: fix: sort hobbies by label instead of name
+------------------------------------------------------------
+Update at 2025-08-28 15:20:21 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 17a228c26c41cff0b0d12d76df6b4baa730b1f40
+Commit message: feat: allow unauthenticated access to /cities and /hobbies
+------------------------------------------------------------
