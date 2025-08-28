@@ -266,3 +266,8 @@ Author: Kacper Dęga
 SHA: 62a415c8b940d468ad0bbff72647c9f1c68f1418
 Commit message: feat: endpoints for hobbies and cities send sorted data
 ------------------------------------------------------------
+Update at 2025-08-28 15:06:29 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: c15a3c2bdd6511675be05d95997a7f0205418726
+Commit message: feat: use Hobby id instead of name to register user
+------------------------------------------------------------
