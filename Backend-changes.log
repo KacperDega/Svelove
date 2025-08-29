@@ -282,3 +282,32 @@ Author: Kacper Dęga
 SHA: 17a228c26c41cff0b0d12d76df6b4baa730b1f40
 Commit message: feat: allow unauthenticated access to /cities and /hobbies
 ------------------------------------------------------------
+Update at 2025-08-29 16:32:37 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 19ad3f00ab2b99949868db99e432f6f17350b6ca
+Commit message: feat: permit /error endpoint for better frontend error display
+------------------------------------------------------------
+Update at 2025-08-29 16:40:43 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 8fbaa7345f9cc35d9c57bef199f49c8abf643057
+Commit message: fix: fix deserialization of multipart/form-data register request
+------------------------------------------------------------
+Update at 2025-08-29 16:43:04 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 4066b6b7a94a1a7daad0fb4793282ca76bd79700
+Commit message: refactor: add rollback for photo upload and improve request mapping
+------------------------------------------------------------
+Update at 2025-08-29 16:48:32 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 3f81fc38c75c3c53a76ad0572a2c5afc6a2b8320
+Commit message: refactor: replace .toList() with .collect(Collectors.toList()) to avoid unmodifiable lists
+------------------------------------------------------------
+Update at 2025-08-29 19:42:50 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 58d183de350247490c29b9f03e37d1d86070010c
+Commit message: test: adjust tests for change from array to list in controller
+------------------------------------------------------------
