@@ -311,3 +311,8 @@ Author: Kacper Dęga
 SHA: 58d183de350247490c29b9f03e37d1d86070010c
 Commit message: test: adjust tests for change from array to list in controller
 ------------------------------------------------------------
+Update at 2025-08-31 12:23:44 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 5625919414aa11f87a416c74ea8d0fd1527f9866
+Commit message: chore: change JWT token issuer
+------------------------------------------------------------
