@@ -118,3 +118,9 @@ Author: Kacper Dęga
 SHA: 0f093caed56ee742adb2d33f2a41237a9bad9d45
 Commit message: Update main-repo-sync.yml
 ------------------------------------------------------------
+Update at 2025-09-02 16:19:05 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 427da574743dd36d07ff3b3148f2a41c93561153
+Commit message: feat: update UserProfileDTO structure and enhance data mapping for profile edits
+------------------------------------------------------------
