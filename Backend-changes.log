@@ -327,3 +327,8 @@ Author: Kacper Dęga
 SHA: 53e42c6187756577b261d8ecc86d9aed651707f2
 Commit message: fix: map hobbies using label instead of name
 ------------------------------------------------------------
+Update at 2025-09-05 18:59:19 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 0a2a6a6a6042158b9dd4d56d0033dda387f70e48
+Commit message: fix: use RequestParam in controller, fix ordered photos handling
+------------------------------------------------------------
