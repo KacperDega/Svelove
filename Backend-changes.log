@@ -316,3 +316,14 @@ Author: Kacper Dęga
 SHA: 5625919414aa11f87a416c74ea8d0fd1527f9866
 Commit message: chore: change JWT token issuer
 ------------------------------------------------------------
+Update at 2025-09-05 15:55:56 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 243856dcd59e1d63386cd2c8232043014e309c1e
+Commit message: feat: add transactional photo update with new file uploads and order validation
+------------------------------------------------------------
+Update at 2025-09-05 15:56:41 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 53e42c6187756577b261d8ecc86d9aed651707f2
+Commit message: fix: map hobbies using label instead of name
+------------------------------------------------------------
