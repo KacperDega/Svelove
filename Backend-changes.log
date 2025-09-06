@@ -332,3 +332,14 @@ Author: Kacper Dęga
 SHA: 0a2a6a6a6042158b9dd4d56d0033dda387f70e48
 Commit message: fix: use RequestParam in controller, fix ordered photos handling
 ------------------------------------------------------------
+Update at 2025-09-06 18:16:18 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: f8eb911621032fbad22855cb9ab59d7ae170dc96
+Commit message: fix: fixed notifications management issues during matching
+------------------------------------------------------------
+Update at 2025-09-06 18:16:53 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 0699c14c495606883fe898f64f02f4861bff145d
+Commit message: feat: /matches/like now returns status in json
+------------------------------------------------------------
