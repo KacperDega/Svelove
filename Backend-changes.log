@@ -343,3 +343,8 @@ Author: Kacper Dęga
 SHA: 0699c14c495606883fe898f64f02f4861bff145d
 Commit message: feat: /matches/like now returns status in json
 ------------------------------------------------------------
+Update at 2025-09-10 18:36:32 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 702645a999035f0fbf544ce81d5df636e7622097
+Commit message: feat: add endpoint to retrieve user convestations data as list
+------------------------------------------------------------
