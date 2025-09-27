@@ -348,3 +348,20 @@ Author: Kacper Dęga
 SHA: 702645a999035f0fbf544ce81d5df636e7622097
 Commit message: feat: add endpoint to retrieve user convestations data as list
 ------------------------------------------------------------
+Update at 2025-09-14 16:11:25 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: f15d3199ce62ba4d2749135a85deb05beb448d1f
+Commit message: fix: authentication problems during messaging
+------------------------------------------------------------
+Update at 2025-09-27 11:09:46 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 271f570fc3fb653e5e1957b33a30a6f991b17b37
+Commit message: refactor: rename /notifications/mark-all-read endpoint to /notifications/read-all
+------------------------------------------------------------
+Update at 2025-09-27 11:10:38 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 1acb88069a1606a1561fc6f5c727c9f20ad9fe58
+Commit message: feat: add user profile photo url to login response
+------------------------------------------------------------
