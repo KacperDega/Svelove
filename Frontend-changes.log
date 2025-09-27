@@ -124,3 +124,9 @@ Author: Kacper Dęga
 SHA: 427da574743dd36d07ff3b3148f2a41c93561153
 Commit message: feat: update UserProfileDTO structure and enhance data mapping for profile edits
 ------------------------------------------------------------
+Update at 2025-09-27 16:15:40 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 06845d75e3459bcb57e8c5c0ef588521b635cb39
+Commit message: feat: button to mark all notifications as read
+------------------------------------------------------------
