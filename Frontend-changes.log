@@ -136,3 +136,9 @@ Author: Kacper Dęga
 SHA: 7d47101703d4db8e17ecb4c8dce1367259274326
 Commit message: feat: page where users can see their personal stats
 ------------------------------------------------------------
+Update at 2025-10-03 16:17:38 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: a3b9597fe3b32dab88e0358f68be953d98725a91
+Commit message: feat: include different stats modes (lifetime/year/month)
+------------------------------------------------------------
