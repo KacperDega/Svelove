@@ -365,3 +365,8 @@ Author: Kacper Dęga
 SHA: 1acb88069a1606a1561fc6f5c727c9f20ad9fe58
 Commit message: feat: add user profile photo url to login response
 ------------------------------------------------------------
+Update at 2025-10-03 13:39:04 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 1c093ad5d9ffe8bd04d3532f1d573aa3de60fb76
+Commit message: fix: include latest update date in stats aggregate
+------------------------------------------------------------
