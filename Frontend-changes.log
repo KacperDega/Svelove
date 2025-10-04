@@ -142,3 +142,9 @@ Author: Kacper Dęga
 SHA: a3b9597fe3b32dab88e0358f68be953d98725a91
 Commit message: feat: include different stats modes (lifetime/year/month)
 ------------------------------------------------------------
+Update at 2025-10-04 16:16:19 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: d5f8fc284e0a516457ee3aab33672e4cf1d4e845
+Commit message: feat: add image carousel to matches screen
+------------------------------------------------------------
