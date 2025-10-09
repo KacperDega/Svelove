@@ -148,3 +148,9 @@ Author: Kacper Dęga
 SHA: d5f8fc284e0a516457ee3aab33672e4cf1d4e845
 Commit message: feat: add image carousel to matches screen
 ------------------------------------------------------------
+Update at 2025-10-09 16:19:47 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: b070fa5d81eb7f6a20c045ca5e8533bcea22e7fd
+Commit message: feat: dashboard screen with API connection
+------------------------------------------------------------
