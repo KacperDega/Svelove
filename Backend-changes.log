@@ -370,3 +370,14 @@ Author: Kacper Dęga
 SHA: 1c093ad5d9ffe8bd04d3532f1d573aa3de60fb76
 Commit message: fix: include latest update date in stats aggregate
 ------------------------------------------------------------
+Update at 2025-10-09 16:15:47 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 05d5fba40990c063e3af761e0ea38da1fa928697
+Commit message: fix: unify notification message formats
+------------------------------------------------------------
+Update at 2025-10-09 16:16:15 +0200
+Submodule: Backend
+Author: Kacper Dęga
+SHA: 6f6ced51a6809d141949ef0debd79a6149561deb
+Commit message: feat: add controller with Dashboard endpoint
+------------------------------------------------------------
