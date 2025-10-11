@@ -154,3 +154,9 @@ Author: Kacper Dęga
 SHA: b070fa5d81eb7f6a20c045ca5e8533bcea22e7fd
 Commit message: feat: dashboard screen with API connection
 ------------------------------------------------------------
+Update at 2025-10-11 16:15:44 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: fe3c42dd293dc0794fb62716c7fa1312ffb3a1c8
+Commit message: feat: simple header with app name for Login and Register
+------------------------------------------------------------
