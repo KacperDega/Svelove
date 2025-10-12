@@ -160,3 +160,9 @@ Author: Kacper Dęga
 SHA: fe3c42dd293dc0794fb62716c7fa1312ffb3a1c8
 Commit message: feat: simple header with app name for Login and Register
 ------------------------------------------------------------
+Update at 2025-10-12 16:16:24 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: a4e4831e45a5551ade5626277bedcc5211480329
+Commit message: fix: redirect to main page instead of login at logout
+------------------------------------------------------------
