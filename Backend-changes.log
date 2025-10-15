@@ -381,3 +381,8 @@ Author: Kacper Dęga
 SHA: 6f6ced51a6809d141949ef0debd79a6149561deb
 Commit message: feat: add controller with Dashboard endpoint
 ------------------------------------------------------------
+Update at 2025-10-15 20:35:36 +0200Submodule: Backend
+Author: Kacper Dęga
+SHA: 967f244034d42c1911dd5cb6fc8e2b54450016c8
+Commit message: feat: send empty stats to dashboard when there is none for current month
+------------------------------------------------------------
