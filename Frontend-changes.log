@@ -166,3 +166,9 @@ Author: Kacper Dęga
 SHA: a4e4831e45a5551ade5626277bedcc5211480329
 Commit message: fix: redirect to main page instead of login at logout
 ------------------------------------------------------------
+Update at 2025-10-16 16:19:45 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: c1f1c1915b30c89ba83508396ea1c0a7e6396a34
+Commit message: fix: missing city name in match card
+------------------------------------------------------------
