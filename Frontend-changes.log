@@ -172,3 +172,9 @@ Author: Kacper Dęga
 SHA: c1f1c1915b30c89ba83508396ea1c0a7e6396a34
 Commit message: fix: missing city name in match card
 ------------------------------------------------------------
+Update at 2025-10-27 16:20:04 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: 855f96c9f7d1d822e79d531113fdd51f065c5c13
+Commit message: fix: messages display fixes
+------------------------------------------------------------
