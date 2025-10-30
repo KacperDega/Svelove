@@ -178,3 +178,9 @@ Author: Kacper Dęga
 SHA: 855f96c9f7d1d822e79d531113fdd51f065c5c13
 Commit message: fix: messages display fixes
 ------------------------------------------------------------
+Update at 2025-10-30 16:47:25 UTC
+Submodule: Frontend
+Author: Kacper Dęga
+SHA: b5900ebffc5c1b2413e09cc06659ab5d2208f864
+Commit message: docs: update README to reflect project details and installation instructions
+------------------------------------------------------------
