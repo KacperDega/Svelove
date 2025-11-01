@@ -386,3 +386,8 @@ Author: Kacper Dęga
 SHA: 967f244034d42c1911dd5cb6fc8e2b54450016c8
 Commit message: feat: send empty stats to dashboard when there is none for current month
 ------------------------------------------------------------
+Update at 2025-11-01 18:37:10 +0100Submodule: Backend
+Author: Kacper Dęga
+SHA: 36ccd50f89c16f877742c9607a61cb071a9e1457
+Commit message: feat: add static API documentation
+------------------------------------------------------------
