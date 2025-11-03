@@ -21,7 +21,12 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           ref: 'main'
           fetch-depth: 0
-
+          
+      - name: Configure git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
       - name: Get current submodule SHA
         id: pre_update_sha
         run: echo "sha=$(git submodule status -- ${{ env.SUBMODULE_NAME }} | awk '{print $1}')" >> $GITHUB_OUTPUT
