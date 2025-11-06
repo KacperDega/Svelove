@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Showcase | svelove</title>
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=80&id=zELcH06HQNGP&format=png" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden;
+            background-color: #111;
+            font-family: Arial, sans-serif;
+        }
+        
+        .mySwiper2 {
+            width: 100%;
+            height: calc(100vh - 60px); 
+        }
+
+        .main-slide-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .main-slide-content img {
+            max-width: 95%;
+            max-height: 95%;
+            display: block;
+            object-fit: contain;
+        }
+
+        .caption {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 10;
+            padding: 8px 15px;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            font-size: 1.1em;
+            border-radius: 4px;
+            text-align: center;
+            pointer-events: none;
+            max-width: 80%;
+        }
+        
+        .mySwiper {
+            height: 50px;
+            box-sizing: border-box;
+            padding: 5px 0;
+            margin-top: 0;
+            background-color: #000;
+        }
+
+        .mySwiper .swiper-slide {
+            width: 20%;
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+        
+        .mySwiper .swiper-slide-thumb-active {
+            opacity: 1;
+            border: 2px solid #007aff;
+            box-sizing: border-box;
+        }
+        
+        .mySwiper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+
+        .swiper-button-next, .swiper-button-prev {
+            top: 45%;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="swiper mySwiper2">
+        <div class="swiper-wrapper" id="main-gallery-wrapper">
+        </div>
+        
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper" id="thumb-gallery-wrapper">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const screenshotData = [
+            {
+                src: "screenshots/landing_page1.png", 
+                alt: "Landing Page",
+                caption: "Landing Page: Strona startowa"
+            },
+            {
+                src: "screenshots/landing_page2.png", 
+                alt: "Landing Page",
+                caption: "Landing Page: Strona startowa"
+            },
+            {
+                src: "screenshots/login.png", 
+                alt: "Login Page",
+                caption: "Login Page: Ekran logowania"
+            },
+            {
+                src: "screenshots/register1.png", 
+                alt: "Register Page",
+                caption: "Register Page: Strona rejestracji"
+            },
+            {
+                src: "screenshots/register2.png", 
+                alt: "Register Page",
+                caption: "Register Page: Strona rejestracji"
+            },
+            {
+                src: "screenshots/register3.png", 
+                alt: "Register Page",
+                caption: "Register Page: Strona rejestracji"
+            },
+            {
+                src: "screenshots/dashboard.png", 
+                alt: "Dashboard Page",
+                caption: "Dashboard: Główny panel"
+            },
+            {
+                src: "screenshots/dashboard_notifications.png",
+                alt: "Notifications menu",
+                caption: "Notifications menu: Menu powiadomień"
+            },
+            {
+                src: "screenshots/dashboard_usermenu.png",
+                alt: "User menu",
+                caption: "User menu: Menu użytkownika"
+            },
+            {
+                src: "screenshots/matches.png",
+                alt: "Matches Page",
+                caption: "Matches Page: Strona dopasowań"
+            },
+            {
+                src: "screenshots/chat.png",
+                alt: "Chat Page",
+                caption: "Chat Page: Strona czatu"
+            },
+            {
+                src: "screenshots/profile.png",
+                alt: "Profile Page",
+                caption: "Profile Page: Profil użytkownika"
+            },
+            {
+                src: "screenshots/edit_profile.png",
+                alt: "Edit Profile Page",
+                caption: "Edit Profile Page: Edycja profilu"
+            },
+            {
+                src:"screenshots/edit_photos.png",
+                alt:"Edit Photos Page",
+                caption:"Edit Photos Page: Edycja zdjęć"
+            },
+            {
+                src: "screenshots/stats_monthly.png",
+                alt: "Monthly Stats Page",
+                caption: "Monthly Stats Page: Statystyki miesięczne"
+            },
+            {
+                src: "screenshots/stats_modes_alltime.png",
+                alt: "All Time Stats Page",
+                caption: "All Time Stats Page: Statystyki ogólne"
+            }
+
+        ];
+
+        const mainWrapper = document.getElementById('main-gallery-wrapper');
+        const thumbWrapper = document.getElementById('thumb-gallery-wrapper');
+
+        let mainHtml = '';
+        let thumbHtml = '';
+
+        screenshotData.forEach(item => {
+            mainHtml += `
+                <div class="swiper-slide">
+                    <div class="main-slide-content">
+                        <img src="${item.src}" alt="${item.alt}">
+                    </div>
+                    <div class="caption">${item.caption}</div>
+                </div>
+            `;
+            
+            thumbHtml += `
+                <div class="swiper-slide">
+                    <img src="${item.src}" alt="${item.alt}" />
+                </div>
+            `;
+        });
+
+        mainWrapper.innerHTML = mainHtml;
+        thumbWrapper.innerHTML = thumbHtml;
+
+        const galleryThumbs = new Swiper(".mySwiper", {
+            spaceBetween: 10,
+            slidesPerView: 9, 
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+
+        const galleryTop = new Swiper(".mySwiper2", {
+            spaceBetween: 0,
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: galleryThumbs,
+            },
+        });
+    </script>
+
+</body>
+</html>
