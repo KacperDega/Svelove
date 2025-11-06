@@ -28,6 +28,20 @@ Svelove is a modern, full-stack dating application designed to help people in Po
   <img width="12" />
 </div>
 
+## ✨ Features
+*   **User Profiles:** Create, edit, and view detailed user profiles with information such as photos, bio, hobbies, and preferences.
+*   **Matching Algorithm:** A sophisticated algorithm that suggests potential partners based on factors such as user preferences, hobbies, and location.
+*   **Messaging/Chat:** Real-time chat functionality to communicate with matches.
+*   **Location-Based Filtering:** Find users in specific Polish cities and regions.
+*   **Personalized Hobby Selection:** Choose from a list of hobbies popular in Poland to personalize your profile.
+*   **Personal Statistics:** Track your activity with personal stats like swipes and matches, viewable for different time periods.
+
+## 🖼️ Showcase
+
+A gallery of screenshots from the application is available at the following link, showcasing the user interface and key features.
+
+**[➡️ View Application Showcase](https://kacperdega.github.io/Svelove/)**
+
 ## 🛠️ Tech Stack
 
 ### Backend (Spring Boot)
@@ -48,15 +62,20 @@ Svelove is a modern, full-stack dating application designed to help people in Po
 *   **StompJS & SockJS:** For real-time messaging and chat functionality via WebSockets.
 *   **Polish-language Interface:** The user interface is designed in Polish to cater to the local market.
 
-## ✨ Features
-*   **User Profiles:** Create, edit, and view detailed user profiles with information such as photos, bio, hobbies, and preferences.
-*   **Matching Algorithm:** A sophisticated algorithm that suggests potential partners based on factors such as user preferences, hobbies, and location.
-*   **Messaging/Chat:** Real-time chat functionality to communicate with matches.
-*   **Location-Based Filtering:** Find users in specific Polish cities and regions.
-*   **Personalized Hobby Selection:** Choose from a list of hobbies popular in Poland to personalize your profile.
-*   **Personal Statistics:** Track your activity with personal stats like swipes and matches, viewable for different time periods.
-
 ## 🔗 Repository Structure
 *   **[Backend Repository](https://github.com/KacperDega/svelove-backend)** (The core API, business logic, and data layer.)
 *   **[Frontend Repository](https://github.com/KacperDega/svelove-frontend)** (The user interface built with React.)
 *   **[API Documentation (Swagger)](https://kacperdega.github.io/svelove-backend/)** (Detailed API endpoints reference.)
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+1.  **Clone the repository with its submodules:**
+    ```bash
+    git clone --recurse-submodules https://github.com/KacperDega/svelove.git
+    ```
+
+2.  **Set up and run the applications:**
+    The backend and frontend are located in their respective submodules. Please refer to the `README.md` file within each submodule for detailed setup and run instructions.
+
