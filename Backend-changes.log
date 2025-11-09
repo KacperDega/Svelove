@@ -401,3 +401,8 @@ Author: Kacper Dęga
 SHA: ef55db5792eeb0ca5513602be5c47defa9314d0e
 Commit message: docs: update README.md
 ------------------------------------------------------------
+Update at 2025-11-09 12:07:17 +0100Submodule: Backend
+Author: Kacper Dęga
+SHA: 3a73b7228cae7830ebbab843587eeffa73f7be89
+Commit message: docs: update setup instructions in README.md to include .env file configuration
+------------------------------------------------------------
